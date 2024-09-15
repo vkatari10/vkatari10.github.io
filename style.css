@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#logo {
+    width: 10rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#info-left1 {
+    background-attachment: fixed;
+    background-position: 0px 20rem;
+    background-repeat: no-repeat;
+}
+
+#logo, #menu {
+    display: inline-block;
+    margin-left: 0.75rem;
+    
+}
+
+
+
+
+#title-learn {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p, h1, h2, h3{
+    background: transparent;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.red-word {
+    color: rgb(223, 146, 146);
+    background: transparent;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.emp {
+    background: transparent;
+    color: rgb(165, 93, 93);
+}
+
+#info-right {
+   
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    margin-left: 2rem
+    
+   
+}
+
+#title-learn {
+    color: rgb(114, 130, 138);
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.header-learn {
+    color: rgb(177, 177, 212);
+    text-align: center;
+    font-size:  35px;
+    
+
+}
+
+
+
+#info-right, #info-left1, #info-left2, #info-right2 {
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px 20rem;
+   
+}
+
+
+
+#info-left2 {
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 2rem;
+   
+    
+}
+
+#info-right2 {
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    background: transparent;
+}
+
+#info-left3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+   
+}
+
+#info-right3 {
+    text-indent: 0%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+}
+
+.large-text {
+    background: transparent;
+    
+  
+}
+
+#header {
+    background: black;
+    position: absolute;
+    padding-top: 25px;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 2rem;
+    padding-right: 59.4696%;
+    padding-bottom: 0.75rem;
+    width: 100%;
+}
+
+
+
+#info-left1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-size: 100% 100%;
+    background-color:  rgb(61, 59, 53);
+    border-bottom-left-radius: 50px;
+    background-repeat: repeat;
+    border-bottom-right-radius: 50px;
+    top: 4rem;
+    margin-top: 2rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+
+}
+
+html, body{
+    background-color: rgb(202, 158, 104);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSotJhy3zXs2WUa2S70yZ6VD4rXNUXJv8YtQQ&s)
+}
+
+footer {
+    text-align: center;
+    font-size: x-large;
+    background: transparent;
+}
+
+#about-info {
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+/* button settings */
+button {
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    opacity: 25%;
+}
+
+button:focus {
+    background-color: black;
+}
+
+
+#home-title {
+    margin-top: 7rem;
+    margin-left: 2rem;
+    text-align: left;
+    color: rgb(114, 130, 138);
+    font-size: larger;
+    text-decoration: underline;
+}
+
+#start, #start-1 {
+    background: rgb(50, 61, 91);
+    padding: 10px 10px 10px 10px;  
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 25px;
+}
+
+#start {
+    margin-left: 2rem;
+
+}
+
+#link-sat {
+    background-color: transparent;
+}
+
+
+
+
+#sec {
+    margin-top: 2rem;
+    background-color: linear-gradient(deg, green, black);
+    padding-top: 10px;
+    padding-bottom: 5%;
+}
+
+
+#start:hover {
+    opacity: 75%;
+}
+
+#foot2 {
+    margin-top: 1000px;
+}
